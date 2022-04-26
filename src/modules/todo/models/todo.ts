@@ -7,10 +7,10 @@ export interface Todo {
   complete: boolean
 }
 
-export function create(title: string, creator: User): Todo {
+export function create(title: string, owner: User): Todo {
   return {
     id: Math.random(),
-    owner: creator.username,
+    owner: owner.username,
     title,
     complete: false
   }

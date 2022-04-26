@@ -1,7 +1,7 @@
 {
-  "name": "archtecture",
-  "private": true,
+  "name": "forentend-clean-ddd-archtecture",
   "version": "0.0.0",
+  "keywords": ["ddd", "archtecture", "fornentend"],
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
